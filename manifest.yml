@@ -1,0 +1,8 @@
+---
+applications:
+- name: perfinspector
+  memory: 1024M
+  host: inspect
+  domain: labs.homedepot.com
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  instances: 2
